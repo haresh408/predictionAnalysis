@@ -1,5 +1,4 @@
 from cProfile import label
-from turtle import color
 import streamlit as st
 from plotly import graph_objs as go
 import yfinance as yf
@@ -12,7 +11,7 @@ import matplotlib.pyplot as plt
 import pandas_datareader as dataa
 import sklearn
 from sklearn.preprocessing import MinMaxScaler
-import base64
+
 
 START = "2015-01-01"
 TODAY = date.today().strftime("%Y-%m-%d")
